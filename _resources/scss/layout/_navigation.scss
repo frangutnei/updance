@@ -1,0 +1,52 @@
+.navigation {
+  background-color: black;
+  align-items: center;
+  
+  &__logo{
+    color: #efb810 !important;
+    font-size: 22px;
+
+    &:hover{
+      color: #ca9a0a !important;
+      text-decoration: none;
+    }
+  }
+  &__list {
+    margin-left: 1rem;
+  }
+  &__item a {
+    display: block;
+    padding: 1.3em 1em;
+    text-decoration: none;
+    color: black;    
+  }
+} 
+// .navigation__list{
+//   margin-left: 2rem;
+// }
+  
+  /* menu icon */
+  
+ .menu-icon {
+    display: block;
+    float: right;
+    padding: 2em 1em;
+    position: relative;
+    height: 2em;
+    width: 2em;
+  }
+  
+  /* menu btn */
+  
+.menu-btn {
+    display: none;
+  }
+  
+// .menu-btn:checked ~ .navigation__list {
+//     max-height: none;
+//   }
+  
+/* 48em = 768px */
+  
+
+  
