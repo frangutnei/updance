@@ -36,3 +36,14 @@
     background-repeat: no-repeat;
     height: 28rem;   
 }
+
+
+.carousel{
+    &__flecha{
+        color: darkred;
+
+    }
+    &-control-prev, &-control-next{
+        width: 8rem !important;
+    }
+}

@@ -11,6 +11,7 @@
   *
   */
 
+@import 'base/reset';
 @import 'vendors/index';
 @import 'abstracts/index';
 @import 'base/index';
@@ -20,3 +21,4 @@
 @import 'pages/index';
 @import 'components/carousel';
 @import 'pages/powerperlta';
+@import 'components/buscador';
