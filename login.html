@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+        <link rel="stylesheet" href="assets/styles/style.css" />
+        <!-- <link rel="shortcut icon" href="assets/ico/favicon.ico" /> -->
+            
+        <!-- bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <title>Login</title>
+    </head>
+    <body>
+        
+        <header class="header">        
+            <nav class="navbar navbar-expand-lg navigation">
+                <a class="navigation__logo" href="index.html">UpDance</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon navigation__span"><i class="fas fa-bars navigation__hamburguer"></i></span>
+                </button>
+                    
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto navigation__list">
+                        <li class="navigation__item">
+                            <a class="navigation__link" href="#">Academias</a>
+                        </li>
+                        <li class="navigation__item">
+                            <a class="navigation__link" href="#">Calendario</a>
+                        </li>
+                        <li class="navigation__item">
+                            <a class="navigation__link--login" href="login.html">Login</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <div class="login">
+            <img src="assets/images/logo_academias/logo.jpeg" class="login__logo" alt="">
+            <form class="container login__form">
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Usuario</label>
+                    <input class="login__usuario form-control" type="email" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Contraseña</label>
+                    <input class="login__contraseña form-control" type="password" id="exampleInputPassword1">
+                </div>
+                <button type="submit" class="btn login__btn">Iniciar Sesión</button>
+            </form>
+        </div>
+
+
+        <footer class="footer">
+                <div class="link">
+                  <a  class="footer__link" href="#">Contacto</a>
+                  <a  class="footer__link" href="#">Nosotros</a>
+                </div>
+                <div class="logo">
+                  <img class="footer__img" src="assets/images/logo_academias/logo_completo.jpg" alt="">
+                </div>
+                <div class="app">
+                  <img class="footer__gp" src="assets/images/logo_academias/disponible-en-google-play-badge.png" alt="">
+                  <img class="footer__as" src="assets/images/logo_academias/appstore.png" alt="">
+                </div>
+              </footer>
+    </body>
+</html>

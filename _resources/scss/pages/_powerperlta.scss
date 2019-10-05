@@ -10,4 +10,63 @@
         padding: 0 2rem;
 
     }
+}.academia{
+    text-align: center;
+    padding-top: 1rem;
+    &__titulo{
+        margin: 1.5rem 0;
+    }
+}
+
+.sedes{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 2rem;
+    justify-content: space-around;
+
+    &_titulo{
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+
+    &_sede{
+        display: flex;
+        width: 44%;
+        padding-bottom: 2rem;
+    }
+}
+     
+.sede{
+
+    &__img{
+        height: 15rem;
+        width: 15rem;
+        border-radius: 100%;
+    }
+
+    &__info{
+        width: 20rem;
+    }
+    &__btn{
+        display: inline-block;
+        margin-top: 1rem;
+        padding: .8rem 3rem;
+        background-color: #7C0A02;
+        color: white;
+        border-radius: 30px;
+    }
+    &__btn:hover{
+        // display: inline-block;
+        // margin-top: 1rem;
+        // padding: .8rem 3rem;
+        // background-color: #7C0A02;
+        color: white;
+        text-decoration: none;
+        -webkit-box-shadow: 0px 0px 17px 0px rgba(124,10,2,1);
+        -moz-box-shadow: 0px 0px 17px 0px rgba(124,10,2,1);
+        box-shadow: 0px 0px 17px 0px rgba(124,10,2,1);
+        // border-radius: 30px;
+
+    }
+
 }

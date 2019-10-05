@@ -3,4 +3,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
+    &__boton{
+        border-color: darkred !important;
+        background-color: transparent !important;
+        color: darkred !important;
+        &:hover{
+            background-color: darkred !important;
+            color: white !important;
+        }
+    }
 }

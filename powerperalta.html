@@ -13,13 +13,17 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"crossorigin="anonymous">
 
 
-	<title>Hola</title>
+	<title>PowerPeralta</title>
 </head>
 <body>
 
 	<header class="header">        
         <nav class="navbar navbar-expand-lg navigation">
-            <a class="navigation__logo" href="index.html">UpDance</a>
+			<a class="navigation__logo" href="index.html">UpDance</a>
+			<form class="form-inline my-2 my-lg-0">
+				<input class="form-control buscador__barra" type="search" placeholder="Buscar categoría" aria-label="Search">
+				<button class="btn my-sm-0 buscador__boton" type="submit"><i class="fas fa-search"></i></button>
+			</form>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon navigation__span"><i class="fas fa-bars navigation__hamburguer"></i></span>
             </button>
@@ -33,16 +37,12 @@
                         <a class="navigation__link" href="#">Calendario</a>
 					</li>
 					<li class="navigation__item">
-						<a class="navigation__link--login" href="#">Login</a>
+						<a class="navigation__link--login" href="login.html">Login</a>
 					</li>
                 </ul>
             </div>
         </nav>
 	</header>
-	
-	<div class="buscador">
-		
-	</div>
 
 	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 		<ol class="carousel-indicators">
@@ -53,16 +53,16 @@
 		<div class="carousel-inner">
 			<div class="carousel-item active">
 				<div class="row">
-					<a href="power.html" class="col-4 pp"></a>
-					<a href="#.html" class="col-4 p-0 academia5"></a>
+					<a href="powerperalta.html" class="col-4 pp"></a>
+					<a href="#.html" class="col-4 p-0 ca"></a>
 					<a href="#.html" class="col-4 p-0 valero"></a>
 				</div>
 			</div>
 			<div class="carousel-item">
 				<div class="row">
-					<a href="#.html" class="col-4 p-0 academia4"></a>
+					<a href="#.html" class="col-4 p-0 rd"></a>
 					<a href="#.html" class="col-4 p-0 wp"></a>
-					<a href="#.html" class="col-4 p-0 academia6"></a>
+					<a href="#.html" class="col-4 p-0 p"></a>
 				</div>
 			</div>
 		</div>
@@ -70,10 +70,6 @@
 			<span class="carousel__flecha" aria-hidden="true"><i class="fas fa-chevron-left fa-2x"></i></span>
 			<span class="sr-only">Previous</span>
 		</a>
-		<form class="form-inline my-2 my-lg-0">
-				<input class="form-control mr-sm-2 buscador__barra" type="search" placeholder="Search" aria-label="Search">
-				<button class="btn btn-outline-danger my-2 my-sm-0 buscador__boton" type="submit">Search</button>
-			</form>
 		<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
 			<span class="carousel__flecha" aria-hidden="true"><i class="fas fa-chevron-right fa-2x"></i></span>
 			<span class="sr-only">Next</span>
@@ -81,55 +77,92 @@
     </div>
 
 
-
-    <div class="academia">
-
-        <h3 class="titulo">Power Peralta Dance Studio</h3>    
-			
+	<div class="horario__apoquindo">
+		<h1>Power Peralta - Sede Apoquindo</h1>
+		<h3>Horario</h3>
+	  </div>
+		  
+	  <div class="academia">
+		<h1 class="academia__titulo">Power Peralta Dance Studio</h1>    
+		  
 		<div class="sedes">
-			<h5 class="sedes__titulo">Sedes</h5>
-			<div class="sedes__sedes">	
-				<div class="sedes__sede">
-					<img class="sede__img" src="assets/images/logo_academias/pp_plaza_egaña.jpg" alt="">
-					<div>
-						<h6 class="sede__titulo">Apoquindo</h6>
-						<p class="sede__direccion">AV. OSSA 345 / LOCAL 3B LA REINA / METRO PLAZA EGAÑA</p>
-						<p class="sede__telefono"> 2 2246 6364</p>
-						<p class="sede__horario">LUN. A VIE: 12:15 A 15:00 - 16:00 A 21:00 </p>
-						<p class="sede__horario--sabado">SÁB: 10:00 A 16:30  </p>    
-					</div>
-				</div>
-				<div class="sedes__sede">
-					<h6 class="sede__titulo">Plaza Egaña</h6>
-					<p class="sede__direccion">PASAJE DOCTORA CORA MEYERS 6141 LAS CONDES / METRO MANQUEHUE</p>
-					<p class="sede__telefono">2 2710 8336</p>
-					<p class="sede__horario">LUN. A VIE: 12:15 A 21:00 </p>
-					<p class="sede__horario--sabado">SÁB: 10:00 A 15:30</p>      
-				</div>		
-				<div class="sedes__sede">
-					<h6 class="sede__titulo">Maipú</h6>
-					<p class="sede__direccion">AV. PAJARITOS 2624 / ESQ. AV. CHILE MAIPÚ / METRO PLAZA MAIPÚ</p>
-					<p class="sede__telefono">2 2943 1655</p>
-					<p class="sede__horario">LUN. A VIE: 12:15 A 15:00 - 16:00 A 21:00</p>
-					<p class="sede__horario--sabado"> SÁB: 10:00 A 14:30:30</p>        
-				</div>
-				<div class="sedes__sede">
-					<h6 class="sede__titulo">La Florida</h6>
-					<p class="sede__direccion">AV. FROILÁN ROA 580 / LOCAL 18 LA FLORIDA / METRO VICUÑA MACKENNA</p>
-					<p class="sede__telefono">2 2755 4665</p>
-					<p class="sede__horario">LUN. A VIE: 12:15 A 15:00 - 16:00 A 21:00 </p>
-					<p class="sede__horario--sabado">SÁB: 10:00 A 14:30</p>      
-				</div>
-				<div class="sedes__sede">
-					<h6 class="sede__titulo">Viña del Mar</h6>
-					<p class="sede__direccion">14 NORTE 1084 ESQUINA 4 ORIENTE VIÑA DEL MAR</p>
-					<p class="sede__telefono">32 2517 424</p>
-					<p class="sede__horario">LUN. A VIE: 12:15 A 21:00</p>
-					<p class="sede__horario--sabado"> SÁB: 10:00 A 15:30</p>      
-				</div>
+		  <h4 class="sedes_titulo">Sedes</h4>
+	
+		  <div class="sedes_sede">
+			<img class="sede__img" src="assets/images/logo_academias/pp_apoquindo.jpg" alt="">
+			<div class="sede__info">
+			  <h6 class="sede__titulo">Apoquindo</h6>
+			  <p class="sede__direccion m-0">Pasaje Doctora Cora Meyers 6141 Las Condes / Metro Manquehue</p>
+			  <p class="sede__telefono m-0">2 2710 8336</p>
+			  <p class="sede__horario m-0">Lun. a Vie: 12:15 A 21:00</p>
+			  <p class="sede__horario--sabado m-0">Sáb: 10:00 A 15:30  </p> 
+			  <a href="apoquindo_horario.html" class="sede__btn">HORARIO</a>     
 			</div>
+		  </div>
+		  
+		  <div class="sedes_sede">
+			<img class="sede__img" src="assets/images/logo_academias/pp_plaza_egaña.jpg">
+			<div class="sede__info">
+			  <h6 class="sede__titulo">Plaza Egaña</h6>
+			  <p class="sede__direccion m-0">Av. Ossa 345 / Local 3B La Reina/ Metro Plaza Egaña</p>
+			  <p class="sede__telefono m-0">2 2246 6364</p>
+			  <p class="sede__horario m-0">Lun. a Vie: 12:15 A 15:00 - 16:00 A 21:00</p>
+			  <p class="sede__horario--sabado m-0">Sáb: 10:00 A 16:30</p>   
+			  <a href="#" class="sede__btn">HORARIO</a>     
+			</div>	
+		  </div>		
+	
+		  <div class="sedes_sede">
+			<img class="sede__img" src="assets/images/logo_academias/pp_maipu.jpg" alt="">
+			<div class="sede__info">
+			  <h6 class="sede__titulo">Maipú</h6>
+			  <p class="sede__direccion m-0">Av. Pajaritos 2624 / Esq. Av. Chile Maipú / Metro Plaza Maipú</p>
+			  <p class="sede__telefono m-0">2 2943 1655</p>
+			  <p class="sede__horario m-0">Lun. A Vie: 12:15 A 15:00 - 16:00 A 21:00</p>
+			  <p class="sede__horario--sabado m-0"> Sáb: 10:00 A 14:30:30</p> 
+			  <a href="#" class="sede__btn">HORARIO</a>         
+			</div>
+		  </div>	
+	
+		  <div class="sedes_sede">
+			<img class="sede__img" src="assets/images/logo_academias/pp_la_florida.jpg" alt="">
+			<div class="sede__info">
+			  <h6 class="sede__titulo">La Florida</h6>
+			  <p class="sede__direccion m-0">Av. Froilán Roa 580 / Local 18 La Florida / Metro Vicuña Mackenna</p>
+			  <p class="sede__telefono m-0">2 2755 4665</p>
+			  <p class="sede__horario m-0">Lun. A Vie: 12:15 A 15:00 - 16:00 A 21:00 </p>
+			  <p class="sede__horario--sabado m-0">Sáb: 10:00 A 14:30</p>
+			  <a href="#" class="sede__btn">HORARIO</a>        
+			</div>
+		  </div>	
+		  
+		  <div class="sedes_sede">
+			<img class="sede__img" src="assets/images/logo_academias/pp_viña.png" alt="">
+			<div class="sede__info">
+			  <h6 class="sede__titulo m-0">Viña del Mar</h6>
+			  <p class="sede__direccion m-0">14 Norte 1084 Esquina 4 Oriente Viña del Mar</p>
+			  <p class="sede__telefono m-0">32 2517 424</p>
+			  <p class="sede__horario m-0"></p>
+			  <p class="sede__horario--sabado m-0"></p>   
+			  <a href="#" class="sede__btn">HORARIO</a>   
+			</div>
+		  </div>
 		</div>
-	</div>
+	  </div>
+
+	<footer class="footer">
+      <div class="link">
+        <a  class="footer__link" href="#">Contacto</a>
+        <a  class="footer__link" href="#">Nosotros</a>
+      </div>
+      <div class="logo">
+        <img class="footer__img" src="assets/images/logo_academias/logo_completo.jpg" alt="">
+      </div>
+      <div class="app">
+        <img class="footer__gp" src="assets/images/logo_academias/disponible-en-google-play-badge.png" alt="">
+        <img class="footer__as" src="assets/images/logo_academias/appstore.png" alt="">
+      </div>
+    </footer>
     
 
 

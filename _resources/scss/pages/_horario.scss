@@ -1,0 +1,20 @@
+.horario{
+    &__titulo{
+        text-align: center;
+        margin-top: 6rem;
+        margin-bottom: 2rem;
+    }
+}
+.tabla{
+    width: 50% !important;
+    margin: 0 auto !important;
+    margin-bottom: 2rem !important;
+
+    &__profesor{
+        font-size: 20px;
+    }
+
+    &__dia, &__reserva{
+        width: 15%;
+    }
+}

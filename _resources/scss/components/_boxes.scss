@@ -1,0 +1,15 @@
+.box{
+    background-color: darkred;
+    width: 15rem !important;
+    color: white;
+    display: block;
+    padding: 1rem;
+    position: absolute;
+    top: -30px;
+    font-size: 25px;
+    text-align: center;
+    &:hover{
+        color: white;
+        text-decoration: none;
+    }
+}
