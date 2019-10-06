@@ -1,9 +1,4 @@
 .navigation {
-  background-color: white;
-  align-items: center;
-  -webkit-box-shadow: 0px 8px 5px 0px rgba(155,155,163,0.67);
-  -moz-box-shadow: 0px 8px 5px 0px rgba(155,155,163,0.67);
-  box-shadow: 0px 8px 5px 0px rgba(155,155,163,0.67);
   
   &__logo{
     color: darkred !important;
@@ -55,10 +50,7 @@
       }
     }
   }
-} 
-// .navigation__list{
-//   margin-left: 2rem;
-// }
+}
   
   /* menu icon */
   
