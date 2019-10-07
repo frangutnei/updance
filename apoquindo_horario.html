@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html lang="es">
 
-<head>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
-	<link rel="stylesheet" href="assets/styles/style.css" />
-	<!-- <link rel="shortcut icon" href="assets/ico/favicon.ico" /> -->
-	
-	<!-- bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<!-- font awesome -->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"crossorigin="anonymous">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <link rel="stylesheet" href="assets/styles/style.css" />
+    <!-- <link rel="shortcut icon" href="assets/ico/favicon.ico" /> -->
+    
+    <!-- bootstrap -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"crossorigin="anonymous">
 
 
-	<title>Horario</title>
-</head>
+    <title>Horario</title>
+  </head>
 <body>
 
-	<header class="header">        
+	<header class="header">
     <nav class="navbar navbar-expand-lg navigation">
-			<a class="navigation__logo" href="index.html">UpDance</a>
+			<a class="navigation__logo" href="index.html"><img src="assets/images/logo_academias/logo_solo.png" class="navigation__logo--img" alt=""> UpDance</a>
 			<form class="form-inline my-2 my-lg-0">
 				<input class="form-control buscador__barra" type="search" placeholder="Buscar categoría" aria-label="Search">
 				<button class="btn my-sm-0 buscador__boton" type="submit"><i class="fas fa-search"></i></button>
@@ -31,10 +31,16 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto navigation__list">
           <li class="navigation__item">
-            <a class="navigation__link" href="#">Academias</a>
+            <a class="navigation__link" href="contacto.html">Contacto</a>
           </li>
           <li class="navigation__item">
-            <a class="navigation__link" href="#">Calendario</a>
+            <a class="navigation__link" href="#">Aparecer en UpDance</a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="#">Noticias</a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="descarga.html">Descarga</a>
 					</li>
 					<li class="navigation__item">
 						<a class="navigation__link--login" href="login.html">Login</a>
@@ -42,20 +48,19 @@
         </ul>
       </div>
     </nav>
-	</header>
-        
+	</header>        
 
-    <div class="horario__titulo">
-      <h1>Power Peralta - Sede Apoquindo</h1>
-      <h3>Horario</h3>
-    </div>
+  <div class="horario__titulo">
+    <h1>Power Peralta - Sede Apoquindo</h1>
+    <h3>Horario</h3>
+  </div>
 
-    <table class="table table-bordered tabla">
-      <thead>
-        <tr>
-          <th colspan="2" class="tabla__profesor">Profesor 1</th>
-          <th></th>
-        </tr>
+  <table class="table table-bordered tabla">
+    <thead>
+      <tr>
+        <th colspan="2" class="tabla__profesor">Profesor 1</th>
+        <th></th>
+      </tr>
       </thead>
       <tbody>
         <tr>
@@ -121,17 +126,29 @@
     </table>
 
 
+    
     <footer class="footer">
-      <div class="link">
-        <a  class="footer__link" href="#">Contacto</a>
-        <a  class="footer__link" href="#">Nosotros</a>
-      </div>
-      <div class="logo">
-        <img class="footer__img" src="assets/images/logo_academias/logo_completo.jpg" alt="">
-      </div>
-      <div class="app">
-        <img class="footer__gp" src="assets/images/logo_academias/disponible-en-google-play-badge.png" alt="">
-        <img class="footer__as" src="assets/images/logo_academias/appstore.png" alt="">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 footer__logo">
+            <img class="footer__img" src="assets/images/logo_academias/logo.png" alt="">
+          </div>
+          <div class="col-md-9">
+            <div class="footer__links">
+              <a  class="footer__link" href="#">Quienes Somos</a>
+              <a  class="footer__link" href="contacto.html">Contacto</a>
+            </div>
+            <div class="footer__rrss">
+              <a href="#" class="footer__rs"><i class="fab fa-instagram fa-3x"></i></a>
+              <a href="#" class="footer__rs"><i class="fab fa-facebook-square fa-3x"></i></i></a>
+              <a href="#" class="footer__rs"><i class="fab fa-twitter-square fa-3x"></i></a>
+            </div>
+            <!-- <div class="footer__apps">
+              <img class="footer__app" src="assets/images/logo_academias/disponible-en-google-play-badge.png" alt="">
+              <img class="footer__app" src="assets/images/logo_academias/appstore.png" alt="">
+            </div> -->
+          </div>
+        </div>
       </div>
     </footer>
     

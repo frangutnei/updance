@@ -1,16 +1,24 @@
 .buscador{
     height: 10rem;
     display: flex;
-    align-items: center;
-    justify-content: center;
+        align-items: center;
+        justify-content: center;
+        
+        &__boton{
+            border-color: darkred !important;
+            background-color: transparent !important;
+            color: darkred !important;
+            &:hover{
+                background-color: darkred !important;
+                color: white !important;
+            }
+        }
+    }
 
-    &__boton{
-        border-color: darkred !important;
-        background-color: transparent !important;
-        color: darkred !important;
-        &:hover{
-            background-color: darkred !important;
-            color: white !important;
+@media (max-width: 768px){
+    .buscador{
+        &__barra{
+            width: 10rem !important;
         }
     }
 }

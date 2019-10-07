@@ -1,44 +1,52 @@
 .footer{
-    // background-color: darkred;
-    border-top: 1px solid darkred;
+    background-color: darkred;
     padding: 2rem;
-    display: flex;
-    align-items: center;
 
-    &__link{
-        color: darkred !important;
-        font-size: 25px;
-        display: block;
+    &__logo{
         width: 100%;
         text-align: center;
-
+        margin-bottom: .5rem;
+    }    
+    &__img{
+        height: 7rem;
+        text-align: center;
+            
+    }   
+    &__links{
+        width: 100% !important;
+        text-align: center;
+        width: fit-content;
+    }
+    &__link{
+        color: white !important;
+        padding: 1rem;        
         &:hover{
             text-decoration: none;
             font-weight: 500;
         }
     }
-    &__img{
-        // width: 100%;
-        height: 10rem;
-        
+    &__rrss{
+        text-align: center;
+        margin-top: 2rem;
     }
-    &__gp, &__as{
-        height: 3rem;
-        margin: .1rem;
-        display: block;
-        width: 10rem;
+    &__rs{
+        color: white !important;
+        margin: .3rem;
     }
 }
-
-.logo{
-    width: 50%;
-    text-align: center;
-}
-.link, .app{
-    width: 25%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
     
+
+@media(min-width: 768px){
+    .footer{
+        &__img{
+            text-align: left;
+        }
+        &__links{
+            text-align: right;
+        }
+        &__rrss{
+            text-align: right;
+        }
+    }
+
 }

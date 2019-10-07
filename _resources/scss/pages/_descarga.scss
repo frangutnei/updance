@@ -1,0 +1,21 @@
+.descarga{
+    margin-top: 7rem;
+    height: 20rem;
+    &__titulo{
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    &__app{
+        text-align: center !important;
+    }
+    &__as, &__gp{
+        width: 21rem;
+        height: 7rem;
+    }
+}
+
+@media(min-width:768px){
+    .descarga{
+        margin-top: 10rem;
+    }
+}

@@ -3,34 +3,55 @@
     background-size: cover;
     background-repeat: no-repeat;
     height: 25rem;    
+    width: 100%;
 }
 .img1{
     background-image: url(../../../assets/images/logo_academias/pp.jpg);
 }
 .img2{
     background-image: url(../../../assets/images/logo_academias/conny_azua.jpg);
+    // background-size: inherit;
 }
 .img3{
     background-image: url(../../../assets/images/logo_academias/valero.png);
 }
 .img4{
     background-image: url(../../../assets/images/logo_academias/rd.png);
+    background-size: auto;
 }
 .img5{
     background-image: url(../../../assets/images/logo_academias/wolpack.jpg);
 }
 .img6{
     background-image: url(../../../assets/images/logo_academias/pulso.png);
+    background-size: auto;
 }
-
 .carousel{
+    &__movil{
+        width: 100%;
+        height: 20rem;
+    }
+    &__grande{
+        display: none;
+    }    
     &__flecha{
         color: darkred;
     }
-    &-control-prev, &-control-next{
-        width: 8rem !important;
+}
+
+
+@media (min-width:768px){
+    .carousel{
+        &-control-prev, &-control-next{
+            width: 8rem !important;
+        }
+        &__grande{
+            display: block;
+        }
+    
+        &__movil{
+            display: none;
+        }
     }
-    &-indicators{
-        display: none !important;
-    }
+    
 }

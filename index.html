@@ -1,146 +1,258 @@
 <!DOCTYPE html>
 <html lang="es">
 
-<head>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
-	<link rel="stylesheet" href="assets/styles/style.css" />
-	<!-- <link rel="shortcut icon" href="assets/ico/favicon.ico" /> -->
-	
-	<!-- bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<!-- font awesome -->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"crossorigin="anonymous">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+		<link rel="stylesheet" href="assets/styles/style.css" />
+		<!-- <link rel="shortcut icon" href="assets/ico/favicon.ico" /> -->
+		
+		<!-- bootstrap -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<!-- font awesome -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"crossorigin="anonymous">
 
 
-	<title>UpDance</title>
-</head>
-<body>
+		<title>UpDance</title>
+	</head>
+	<body>
 
-	<header class="header">        
-        <nav class="navbar navbar-expand-lg navigation">
-			<a class="navigation__logo" href="index.html">UpDance</a>
-			<form class="form-inline my-2 my-lg-0">
-				<input class="form-control buscador__barra" type="search" placeholder="Buscar categoría" aria-label="Search">
-				<button class="btn my-sm-0 buscador__boton" type="submit"><i class="fas fa-search"></i></button>
-			</form>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon navigation__span"><i class="fas fa-bars navigation__hamburguer"></i></span>
-            </button>
-              
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto navigation__list">
-                    <li class="navigation__item">
-                        <a class="navigation__link" href="#">Academias</a>
-                    </li>
-                    <li class="navigation__item">
-                        <a class="navigation__link" href="#">Calendario</a>
-					</li>
-					<li class="navigation__item">
-						<a class="navigation__link--login" href="login.html">Login</a>
-					</li>
-                </ul>
-            </div>
-        </nav>
-	</header>
-<!-- 	
-	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-		<ol class="carousel-indicators">
-			<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-			<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-			<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-		</ol>
-		<div class="carousel-inner">
-			<div class="carousel-item active">
-				<div class="row">
-					<a href="powerperalta.html" class="col-4 p-0 img1"></a>
-					<a href="#.html" class="col-4 p-0 img2"></a>
-					<a href="#.html" class="col-4 p-0 img3"></a>
+		<header class="header">
+			<nav class="navbar navbar-expand-lg navigation">
+				<a class="navigation__logo" href="index.html"><img src="assets/images/logo_academias/logo_solo.png" class="navigation__logo--img" alt=""> UpDance</a>
+				<form class="form-inline my-2 my-lg-0">
+					<input class="form-control buscador__barra" type="search" placeholder="Buscar categoría" aria-label="Search">
+					<button class="btn my-sm-0 buscador__boton" type="submit"><i class="fas fa-search"></i></button>
+				</form>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon navigation__span"><i class="fas fa-bars navigation__hamburguer"></i></span>
+				</button>
+				
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto navigation__list">
+						<li class="navigation__item">
+							<a class="navigation__link" href="contacto.html">Contacto</a>
+						</li>
+						<li class="navigation__item">
+							<a class="navigation__link" href="#">Aparecer en UpDance</a>
+						</li>
+						<li class="navigation__item">
+							<a class="navigation__link" href="#">Noticias</a>
+						</li>
+						<li class="navigation__item">
+							<a class="navigation__link" href="descarga.html">Descarga</a>
+						</li>
+						<li class="navigation__item">
+							<a class="navigation__link--login" href="login.html">Login</a>
+						</li>
+					</ul>
 				</div>
+			</nav>
+		</header>
+		
+		<!-- Carousel -->
+		<div>		
+			<div id="carouselMovilIndicators" class="carousel slide carousel__movil" data-ride="carousel">
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<div class="row">
+							<a href="powerperalta.html" class="col-12 p-0 img1"></a>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="row">
+							<a href="#.html" class="col-12 p-0 img2"></a>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="row">
+							<a href="#.html" class="col-12 p-0 img3"></a>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="row">
+							<a href="#.html" class="col-12 p-0 img4"></a>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="row">
+							<a href="#.html" class="col-12 p-0 img5"></a>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="row">
+							<a href="#.html" class="col-12 p-0 img6"></a>
+						</div>
+					</div>
+					<!-- <div class="carousel-item">
+						<div class="row">
+							<a href="#.html" class="col-12 p-0 img7"></a>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="row">
+							<a href="#.html" class="col-12 p-0 img8"></a>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="row">
+							<a href="#.html" class="col-12 p-0 img9"></a>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="row">
+							<a href="#.html" class="col-12 p-0 img10"></a>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="row">
+							<a href="#.html" class="col-12 p-0 img11"></a>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="row">
+							<a href="#.html" class="col-12 p-0 img12"></a>
+						</div>
+					</div> -->
+				</div>
+				<a class="carousel-control-prev" href="#carouselMovilIndicators" role="button" data-slide="prev">
+					<span class="carousel__flecha" aria-hidden="true"><i class="fas fa-chevron-left fa-2x"></i></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next" href="#carouselMovilIndicators" role="button" data-slide="next">
+					<span class="carousel__flecha" aria-hidden="true"><i class="fas fa-chevron-right fa-2x"></i></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>		
+			
+			<div id="carouselExampleIndicators" class="carousel slide carousel__grande" data-ride="carousel">
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<div class="row">
+							<a href="powerperalta.html" class="col-4 p-0 img1"></a>
+							<a href="#.html" class="col-4 p-0 img2"></a>
+							<a href="#.html" class="col-4 p-0 img3"></a>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="row">
+							<a href="#.html" class="col-4 p-0 img4"></a>
+							<a href="#.html" class="col-4 p-0 img5"></a>
+							<a href="#.html" class="col-4 p-0 img6"></a>
+						</div>
+					</div>
+					<!-- <div class="carousel-item">
+						<div class="row">
+							<a href="#.html" class="col-4 p-0 img7"></a>
+							<a href="#.html" class="col-4 p-0 img8"></a>
+							<a href="#.html" class="col-4 p-0 img9"></a>
+						</div>
+					</div> -->
+					<!-- <div class="carousel-item">
+						<div class="row">
+							<a href="#.html" class="col-4 p-0 img1o"></a>
+							<a href="#.html" class="col-4 p-0 img11"></a>
+							<a href="#.html" class="col-4 p-0img12"></a>
+						</div>
+					</div> -->
+				</div>
+				<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+					<span class="carousel__flecha" aria-hidden="true"><i class="fas fa-chevron-left fa-2x"></i></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+					<span class="carousel__flecha" aria-hidden="true"><i class="fas fa-chevron-right fa-2x"></i></span>
+					<span class="sr-only">Next</span>
+				</a>
 			</div>
-			<!-- <div class="carousel-item">
-				<div class="row">
-					<a href="#.html" class="col-4 p-0 img4"></a>
-					<a href="#.html" class="col-4 p-0 img5"></a>
-					<a href="#.html" class="col-4 p-0 img6"></a>
-				</div>
-			</div> -->
-			<!-- <div class="carousel-item">
-				<div class="row">
-					<a href="#.html" class="col-4 p-0 img7"></a>
-					<a href="#.html" class="col-4 p-0 img8"></a>
-					<a href="#.html" class="col-4 p-0 img9"></a>
-				</div>
-			</div> -->
-			<!-- <div class="carousel-item">
-				<div class="row">
-					<a href="#.html" class="col-4 p-0 img1o"></a>
-					<a href="#.html" class="col-4 p-0 img11"></a>
-					<a href="#.html" class="col-4 p-0img12"></a>
-				</div>
-			</div> -->
-		</div>
-		<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-			<span class="carousel__flecha" aria-hidden="true"><i class="fas fa-chevron-left fa-2x"></i></span>
-			<span class="sr-only">Previous</span>
-		</a>
-		<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-			<span class="carousel__flecha" aria-hidden="true"><i class="fas fa-chevron-right fa-2x"></i></span>
-			<span class="sr-only">Next</span>
-		</a>
-	</div>
-	 -->
-	<div class="boxes">
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 fix-mp-right-4">
-					<a class="box" href=#><i class="far fa-money-bill-alt"></i>Compra Clase</a>
-				</div>
-				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 fix-mp-right-4">
-					<a class="box" href="#"><i class="far fa-money-bill-alt"></i>Compra Workshop</a>
-				</div>
-				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 fix-mp-right-4">
-					<a class="box" href="#"><i class="far fa-money-bill-alt"></i>Contrata Plan</a>
-				</div>
-			</div>
-
 		</div>
 		
-	</div>
-	
-	<div class="">
-		<h3>¿Cómo funciona UpDance?</h3>
-	</div>
-
-	<div>
-		<h3>Nosotros</h3>
-	</div>
-
-
-	<footer class="footer">
-			<div class="link">
-			  <a  class="footer__link" href="#">Contacto</a>
-			  <a  class="footer__link" href="#">Nosotros</a>
+		<!-- Cajas -->
+		<div>
+			<div id="carouselExampleControls" class="carousel slide cajas_movil" data-ride="carousel">
+				<div class="carousel-inner cajas_movil__carousel">
+					<div class="carousel-item active">
+						<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 fix-mp-right-4">
+							<a class="caja" href=#><span><i class="far fa-money-bill-alt fa-2x caja__money"></i></span>Compra Clase</a>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+							<a class="caja" href="#"><i class="far fa-money-bill-alt fa-2x caja__money"></i>Compra Workshop</a>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 fix-mp-right-4">
+							<a class="caja" href="#"><i class="far fa-money-bill-alt fa-2x caja__money"></i>Contrata Plan</a>
+						</div>		
+					</div>
+				</div>
+				<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+					<span class="sr-only">Next</span>
+				</a>
 			</div>
-			<div class="logo">
-			  <img class="footer__img" src="assets/images/logo_academias/logo_completo.jpg" alt="">
+			
+			<div class="cajas">
+				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 fix-mp-right-4">
+					<a class="caja" href=#><span><i class="far fa-money-bill-alt fa-2x caja__money"></i></span>Compra Clase</a>
+				</div>
+				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+					<a class="caja" href="#"><i class="far fa-money-bill-alt fa-2x caja__money"></i>Compra Workshop</a>
+				</div>
+				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 fix-mp-right-4">
+					<a class="caja" href="#"><i class="far fa-money-bill-alt fa-2x caja__money"></i>Contrata Plan</a>
+				</div>		
 			</div>
-			<div class="app">
-			  <img class="footer__gp" src="assets/images/logo_academias/disponible-en-google-play-badge.png" alt="">
-			  <img class="footer__as" src="assets/images/logo_academias/appstore.png" alt="">
-			</div>
-		  </footer>
+		</div>
 		
-	<!--jQuery 3.3.1-->
-    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+		<div class="funcionamiento">
+			<h3 class="funcionamiento__titulo">¿Cómo funciona UpDance?</h3>
+		</div>
 
-    <!-- Popper JS 1.14.7 -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<div class="nosotros">
+			<h3 class="nosotros__titulo">Nosotros</h3>
+		</div>
 
-    <!--Bootstrap JS 4.3.1-->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-	<!-- this is where we put our custom functions -->
-	<script src="assets/scripts/main.bundle.js"></script>
-</body>
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 footer__logo">
+						<img class="footer__img" src="assets/images/logo_academias/logo.png" alt="">
+					</div>
+					<div class="col-md-9">
+						<div class="footer__links">
+							<a  class="footer__link" href="#">Quienes Somos</a>
+							<a  class="footer__link" href="contacto.html">Contacto</a>
+						</div>
+						<div class="footer__rrss">
+							<a href="#" class="footer__rs"><i class="fab fa-instagram fa-3x"></i></a>
+							<a href="#" class="footer__rs"><i class="fab fa-facebook-square fa-3x"></i></i></a>
+							<a href="#" class="footer__rs"><i class="fab fa-twitter-square fa-3x"></i></a>
+						</div>
+						<!-- <div class="footer__apps">
+							<img class="footer__app" src="assets/images/logo_academias/disponible-en-google-play-badge.png" alt="">
+							<img class="footer__app" src="assets/images/logo_academias/appstore.png" alt="">
+						</div> -->
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		
+		<!--jQuery 3.3.1-->
+		<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+
+		<!-- Popper JS 1.14.7 -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+		<!--Bootstrap JS 4.3.1-->
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+		<!-- this is where we put our custom functions -->
+		<script src="assets/scripts/main.bundle.js"></script>
+	</body>
 </html>

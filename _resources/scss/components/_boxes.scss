@@ -1,15 +1,44 @@
-.box{
-    background-color: darkred;
-    width: 15rem !important;
-    color: white;
-    display: block;
-    padding: 1rem;
+.cajas{
+    display: none;
+    &_movil{
+        &__carousel{
+        height: 10rem !important;
+        }
+    }
+}
+.caja{
+    display: flex;
     position: absolute;
-    top: -30px;
+    align-items: center;
+    width: 19rem !important;
+    background-color: darkred;
+    color: white;
+    padding: 1rem 3rem;
+    left: 4.5rem;
+    top: 22px;
     font-size: 25px;
     text-align: center;
+
     &:hover{
         color: white;
         text-decoration: none;
     }
+    &__money{
+        display: flex;
+        align-items: center;
+    }
+}
+@media (min-width: 768px){
+    .cajas{
+        display: flex;
+        margin-bottom: 6rem;
+
+        &_movil{
+            display: none;
+        }
+    }
+    .caja{
+        top: -60px;
+    }
+
 }
