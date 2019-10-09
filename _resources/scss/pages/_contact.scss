@@ -1,0 +1,20 @@
+.contacto{
+    margin-top: 7rem;
+    
+    &__titulo{
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    &__form{
+        margin-bottom: 2rem;
+    }
+    &__btn{
+        text-align: center;
+    }
+    &__btn-enviar{
+        background-color: darkred !important;
+        border-color: darkred !important;
+        color: white !important;
+        
+    }
+}
