@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="es">
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+		<link rel="stylesheet" href="assets/styles/style.css" />
+		<!-- <link rel="shortcut icon" href="assets/ico/favicon.ico" /> -->
+		
+		<!-- bootstrap -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<!-- font awesome -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"crossorigin="anonymous">
+
+
+		<title>Contrata Plan</title>
+	</head>
+	<body>
+
+		<header class="header">
+			<nav class="navbar navbar-expand-lg navigation">
+				<a class="navigation__logo" href="index.html"><img src="assets/images/logo_academias/logo_solo.png" class="navigation__logo--img" alt=""> UpDance</a>
+				<form class="form-inline my-2 my-lg-0 buscador">
+					<input class="form-control buscador__barra" type="search" placeholder="Buscar categoría" aria-label="Search">
+			    	<button class="btn my-sm-0 buscador__boton" type="submit"><i class="fas fa-search"></i></button>
+				</form>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon navigation__span"><i class="fas fa-bars navigation__hamburguer"></i></span>
+				</button>
+						
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto navigation__list">
+						<li class="navigation__item">
+							<form class="form-inline my-2 my-lg-0 buscador__movil">
+								<input class="form-control buscador__barra" type="search" placeholder="Buscar categoría" aria-label="Search">
+								<button class="btn my-sm-0 buscador__boton" type="submit"><i class="fas fa-search"></i></button>
+							</form>
+						</li>
+						<li class="navigation__item">
+							<a class="navigation__link" href="contacto.html">Contacto</a>
+						</li>
+						<li class="navigation__item">
+							<a class="navigation__link" href="#">Aparecer en UpDance</a>
+						</li>
+						<li class="navigation__item">
+							<a class="navigation__link" href="#">Noticias</a>
+						</li>
+						<li class="navigation__item">
+							<a class="navigation__link" href="descarga.html">Descarga</a>
+						</li>
+						<li class="navigation__item">
+							<a class="navigation__link--login" href="login.html">Login</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+
+		<h2 class="container contratar__titulo">Contratar Plan</h2>
+		
+		<div class="container filtrar">
+			<form class="filtrar__region" action="">
+				<select name="" id="" class="form-control">
+					<option value="">Seleccione Región</option>
+					<option value="">Metropolitana</option>
+					<option value="">Arica</option>
+					<option value="">Tarapaca</option>
+					<option value="">Antofagasta</option>
+					<option value="">Atacama</option>
+					<option value="">Coquimbo</option>
+					<option value="">Valparaiso</option>
+					<option value="">O'Higgins</option>
+					<option value="">Maule</option>
+					<option value="">Ñuble</option>
+					<option value="">Biobio</option>
+					<option value="">Araucanía</option>
+					<option value="">Los Ríos</option>
+					<option value="">Los Lagos</option>
+					<option value="">Aysen</option>
+					<option value="">Magallanes</option>
+				</select>
+			</form>
+			<form class="filtrar__academia" action="">
+				<select class="form-control" name="" id="">
+					<option value="">Seleccionar Academia</option>
+					<option value="">Power Peraltas</option>
+					<option value="">Cony Azúa</option>
+					<option value="">Valero</option>
+					<option value="">Rodrigo Díaz</option>
+					<option value="">Wolfpack</option>
+					<option value="">Pulso</option>
+				</select>
+			</form>
+			<form class="filtrar__comuna" action="">
+				<input  class="form-control" type="text" name="comuna" id="comuna" placeholder="Comuna">
+			</form>
+			<button type="button" class="btn filtrar__btn">Buscar</button>
+		</div>
+
+		<div class="contratar__planes container">
+			<div class="row">
+				<div class="plan col-md-3">
+					<div class="card">
+						<div class="card-body">
+							<h5 class="card-title">Regular Anual</h5>
+							<h6 class="card-subtitle mb-2">10 clases al mes</h6>
+							<div>
+								<a class="card-text">120 clases para usar durante 12 meses</a>
+							</div>
+							<ul class="list-group list-group-flush">
+								<li class="list-group-item">
+									<label for="">Total</label>
+									<label for=""> $390.000</label>
+								</li>
+								<li class="list-group-item">
+									<label for="">Valor Clase</label>
+									<label for="">$3.250</label>
+								</li>
+								<li class="list-group-item">
+									<label for="">Valor Mensual</label>
+									<label for="">$32.500</label>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="plan col-md-3">
+					<div class="card">
+						<div class="card-body">
+							<h5 class="card-title">Regular Semestral</h5>
+							<h6 class="card-subtitle mb-2">10 clases al mes</h6>
+							<div>
+								<a class="card-text">60 clases para usar durante 6 meses</a>
+							</div>
+							<ul class="list-group list-group-flush">
+								<li class="list-group-item">
+									<label for="">Total</label>
+									<label for="">$237.000</label>
+								</li>
+								<li class="list-group-item">
+									<label for="">Valor Clase</label>
+									<label for="">$3.950</label>
+								</li>
+								<li class="list-group-item">
+									<label for="">Valor Mensual</label>
+									<label for="">$39.500</label>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="plan col-md-3">
+					<div class="card">
+						<div class="card-body">
+							<h5 class="card-title">Regular Trimestral</h5>
+							<h6 class="card-subtitle mb-2">10 clases al mes</h6>
+							<div>
+								<a class="card-text">30 clases para usar durante 3 meses</a>
+							</div>
+							<ul class="list-group list-group-flush">
+								<li class="list-group-item">
+									<label for="">Total</label>
+									<label for="">$138.000</label>
+								</li>
+								<li class="list-group-item">
+									<label for="">Valor Clase</label>
+									<label for="">$4.600</label>
+								</li>
+								<li class="list-group-item">
+									<label for="">Valor Mensual</label>
+									<label for="">$46.000</label>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="plan col-md-3">
+					<div class="card">
+						<div class="card-body">
+							<h5 class="card-title">Regular Mensual</h5>
+							<h6 class="card-subtitle mb-2">10 clases al mes</h6>
+							<div>
+								<a class="card-text">10 clases para usar durante 1 mes</a>
+							</div>
+							<ul class="list-group list-group-flush">
+								<li class="list-group-item">
+									<label for="">Total</label>
+									<label for="">$53.000</label>
+								</li>
+								<li class="list-group-item">
+									<label for="">Valor Clase</label>
+									<label for="">$5.300</label>
+								</li>
+								<li class="list-group-item">
+									<label for="">Valor Mensual</label>
+									<label for="">$53.000</label>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="plan col-md-3">
+					<div class="card">
+						<div class="card-body">
+							<h5 class="card-title">Súper Anual</h5>
+							<h6 class="card-subtitle mb-2">15 clases al mes</h6>
+							<div>
+								<a class="card-text">120 clases para usar durante 12 meses</a>
+							</div>
+							<ul class="list-group list-group-flush">
+								<li class="list-group-item">
+									<label for="">Total</label>
+									<label for=""> $390.000</label>
+								</li>
+								<li class="list-group-item">
+									<label for="">Valor Clase</label>
+									<label for="">$3.250</label>
+								</li>
+								<li class="list-group-item">
+									<label for="">Valor Mensual</label>
+									<label for="">$32.500</label>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="plan col-md-3">
+					<div class="card">
+						<div class="card-body">
+							<h5 class="card-title">Súper Semestral</h5>
+							<h6 class="card-subtitle mb-2">15 clases al mes</h6>
+							<div>
+								<a class="card-text">60 clases para usar durante 6 meses</a>
+							</div>
+							<ul class="list-group list-group-flush">
+								<li class="list-group-item">
+									<label for="">Total</label>
+									<label for="">$237.000</label>
+								</li>
+								<li class="list-group-item">
+									<label for="">Valor Clase</label>
+									<label for="">$3.950</label>
+								</li>
+								<li class="list-group-item">
+									<label for="">Valor Mensual</label>
+									<label for="">$39.500</label>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="plan col-md-3">
+					<div class="card">
+						<div class="card-body">
+							<h5 class="card-title">Súper Trimestral</h5>
+							<h6 class="card-subtitle mb-2">15 clases al mes</h6>
+							<div>
+								<a class="card-text">30 clases para usar durante 3 meses</a>
+							</div>
+							<ul class="list-group list-group-flush">
+								<li class="list-group-item">
+									<label for="">Total</label>
+									<label for="">$138.000</label>
+								</li>
+								<li class="list-group-item">
+									<label for="">Valor Clase</label>
+									<label for="">$4.600</label>
+								</li>
+								<li class="list-group-item">
+									<label for="">Valor Mensual</label>
+									<label for="">$46.000</label>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="plan col-md-3">
+					<div class="card">
+						<div class="card-body">
+							<h5 class="card-title">Súper Mensual</h5>
+							<h6 class="card-subtitle mb-2">15 clases al mes</h6>
+							<div>
+								<a class="card-text">10 clases para usar durante 1 mes</a>
+							</div>
+							<ul class="list-group list-group-flush">
+								<li class="list-group-item">
+									<label for="">Total</label>
+									<label for="">$53.000</label>
+								</li>
+								<li class="list-group-item">
+									<label for="">Valor Clase</label>
+									<label for="">$5.300</label>
+								</li>
+								<li class="list-group-item">
+									<label for="">Valor Mensual</label>
+									<label for="">$53.000</label>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+        
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 footer__logo">
+						<img class="footer__img" src="assets/images/logo_academias/logo.png" alt="">
+					</div>
+					<div class="col-md-9">
+						<div class="footer__links">
+							<a  class="footer__link" href="#">Quienes Somos</a>
+							<a  class="footer__link" href="contacto.html">Contacto</a>
+						</div>
+						<div class="footer__rrss">
+							<a href="#" class="footer__rs"><i class="fab fa-instagram fa-3x"></i></a>
+							<a href="#" class="footer__rs"><i class="fab fa-facebook-square fa-3x"></i></i></a>
+							<a href="#" class="footer__rs"><i class="fab fa-twitter-square fa-3x"></i></a>
+						</div>
+						<!-- <div class="footer__apps">
+							<img class="footer__app" src="assets/images/logo_academias/disponible-en-google-play-badge.png" alt="">
+							<img class="footer__app" src="assets/images/logo_academias/appstore.png" alt="">
+						</div> -->
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<!--jQuery 3.3.1-->
+		<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+
+		<!-- Popper JS 1.14.7 -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+		<!--Bootstrap JS 4.3.1-->
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+		<!-- this is where we put our custom functions -->
+		<script src="assets/scripts/main.bundle.js"></script>
+	</body>
+</html>

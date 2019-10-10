@@ -1,0 +1,41 @@
+.contratar{
+    &__titulo{
+        margin-top: 7rem;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+    &__planes{
+        margin-top: 2rem;
+    }
+}
+.filtrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    &__region{
+        width: 15rem;
+        margin-right: 1rem;
+    }
+
+    &__academia{
+        width: 15rem;
+        margin-right: 1rem;
+    }
+
+    &__comuna{
+        width: 15rem;
+        margin-right: 1rem;
+    }
+
+    &__btn{
+        padding: .5rem 2rem !important;
+        background-color: darkred !important;
+        color: white !important;
+    }
+}
+
+.plan{
+    margin-bottom: 1rem;
+}
