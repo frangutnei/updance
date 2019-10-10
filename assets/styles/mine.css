@@ -118,7 +118,6 @@ body {
   width: 100% !important;
   text-align: center;
   width: fit-content;
-  
 }
 .footer__link {
   color: white !important;
@@ -203,6 +202,7 @@ body {
   border-radius: 5px;
   padding: 0.7rem 1.5rem !important;
   margin-left: 1rem;
+  width: fit-content;
 }
 .navigation__link--login:hover {
   text-decoration: none;
@@ -305,15 +305,21 @@ header {
 .cajas_movil__carousel {
   height: 10rem !important;
 }
+.cajas_movil__div {
+  top: 30px;
+}
+.cajas__carousel {
+  height: 10rem;
+}
 
 .caja {
   display: flex;
-  position: absolute;
   align-items: center;
-  width: 19rem !important;
+  width: 17rem !important;
   background-color: darkred;
   color: white;
-  padding: 1rem 3rem;
+  margin: 0 auto;
+  padding: 1rem 2rem;
   left: 4.5rem;
   top: 22px;
   font-size: 25px;
@@ -331,7 +337,13 @@ header {
 @media (min-width: 768px) {
   .cajas {
     display: flex;
-    margin-bottom: 6rem;
+    height: 4rem;
+  }
+  .cajas__div {
+    width: 100%;
+    height: 7rem;
+    text-align: center;
+    top: -60px;
   }
   .cajas_movil {
     display: none;
@@ -339,13 +351,17 @@ header {
 
   .caja {
     top: -60px;
+    width: 19rem !important;
+    padding: 1rem 3rem;
   }
 }
 .buscador {
-  height: 10rem;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.buscador__movil {
+  display: none !important;
 }
 .buscador__boton {
   border-color: darkred !important;
@@ -360,6 +376,13 @@ header {
 @media (max-width: 768px) {
   .buscador__barra {
     width: 10rem !important;
+  }
+  .buscador__movil {
+    display: flex !important;
+  }
+
+  .buscador {
+    display: none !important;
   }
 }
 .img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9, .img10, .img11, .img12 {
@@ -417,6 +440,15 @@ header {
   .carousel__movil {
     display: none;
   }
+
+  .cajas__carousel {
+    height: 4rem;
+  }
+}
+@media (min-width: 1400px) {
+  .img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9, .img10, .img11, .img12 {
+    height: 35rem;
+  }
 }
 /*
  *
@@ -433,6 +465,33 @@ header {
  * @since 1.0
  *
  */
+.funcionamiento {
+  text-align: center;
+}
+
+.nosotros {
+  text-align: center;
+}
+
+.contacto {
+  margin-top: 7rem;
+}
+.contacto__titulo {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.contacto__form {
+  margin-bottom: 2rem;
+}
+.contacto__btn {
+  text-align: center;
+}
+.contacto__btn-enviar {
+  background-color: darkred !important;
+  border-color: darkred !important;
+  color: white !important;
+}
+
 .horario__titulo {
   text-align: center;
   margin-top: 6rem;

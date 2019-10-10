@@ -20,15 +20,22 @@
 		<header class="header">
 			<nav class="navbar navbar-expand-lg navigation">
 				<a class="navigation__logo" href="index.html"><img src="assets/images/logo_academias/logo_solo.png" class="navigation__logo--img" alt=""> UpDance</a>
-				<form class="form-inline my-2 my-lg-0">
+				<form class="form-inline my-2 my-lg-0 buscador">
 					<input class="form-control buscador__barra" type="search" placeholder="Buscar categoría" aria-label="Search">
 					<button class="btn my-sm-0 buscador__boton" type="submit"><i class="fas fa-search"></i></button>
 				</form>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon navigation__span"><i class="fas fa-bars navigation__hamburguer"></i></span>
-				</button>				
+				</button>
+				
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav mr-auto navigation__list">
+						<li class="navigation__item">
+							<form class="form-inline my-2 my-lg-0 buscador__movil">
+								<input class="form-control buscador__barra" type="search" placeholder="Buscar categoría" aria-label="Search">
+								<button class="btn my-sm-0 buscador__boton" type="submit"><i class="fas fa-search"></i></button>
+							</form>
+						</li>
 						<li class="navigation__item">
 							<a class="navigation__link" href="contacto.html">Contacto</a>
 						</li>
@@ -47,7 +54,7 @@
 					</ul>
 				</div>
 			</nav>
-        </header>
+		</header>
         
         <div class="contacto container">
 			<h1 class="contacto__titulo">Contáctanos</h1>

@@ -4,16 +4,22 @@
         &__carousel{
         height: 10rem !important;
         }
+        &__div{
+            top: 30px;
+        }
+    }
+    &__carousel{
+        height: 10rem;
     }
 }
 .caja{
     display: flex;
-    position: absolute;
     align-items: center;
-    width: 19rem !important;
+    width: 17rem !important;
     background-color: darkred;
     color: white;
-    padding: 1rem 3rem;
+    margin: 0 auto;
+    padding: 1rem 2rem;
     left: 4.5rem;
     top: 22px;
     font-size: 25px;
@@ -31,7 +37,14 @@
 @media (min-width: 768px){
     .cajas{
         display: flex;
-        margin-bottom: 6rem;
+        height: 4rem;
+
+        &__div{
+            width: 100%;
+            height: 7rem;
+            text-align: center;
+            top: -60px;
+        }
 
         &_movil{
             display: none;
@@ -39,6 +52,8 @@
     }
     .caja{
         top: -60px;
+        width: 19rem !important;
+        padding: 1rem 3rem;
     }
 
 }
