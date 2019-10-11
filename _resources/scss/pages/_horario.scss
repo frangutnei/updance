@@ -9,12 +9,41 @@
     width: 50% !important;
     margin: 0 auto !important;
     margin-bottom: 2rem !important;
+    border: 1px solid #dee2e6;
 
     &__profesor{
         font-size: 20px;
+        margin: 0;
+        padding: 1rem;
     }
-
-    &__dia, &__reserva{
-        width: 15%;
+    &__horario{
+        display: flex;
+    }
+    &__dia{
+        width: 15% !important;
+        border: 1px solid #dee2e6 !important;
+        margin: 0;
+        font-size: 1.3rem;
+        padding: 1rem;
+        text-align: center !important;
+    }
+    &__clases{
+        width: 85%;
+    }
+    &__clase{
+        border: 1px solid #dee2e6 !important;
+        display: flex;
+        padding: .5rem;     
+    }
+    &__estilo{
+        width: 85%;
+        padding: .5rem;
+        display: flex;
+        align-items: center;
+    }    
+    &__btn{
+        width: 15% !important;
+        background-color: darkred !important;
+        color: white !important;
     }
 }
