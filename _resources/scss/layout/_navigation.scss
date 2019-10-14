@@ -41,6 +41,9 @@
     padding: .7em 1em;
     text-decoration: none;
     color: black;    
+    &:hover{
+      font-weight: 500;
+    }
   }
   &__link{
     color: black;
