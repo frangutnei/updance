@@ -1,0 +1,33 @@
+.noticias{
+    width: 70%;
+    &__div{
+        display: flex;
+    }
+    &__titulo{
+        text-align: center;
+        margin-top: 7rem;
+        margin-bottom: 3rem;
+    }
+}
+
+.noticia{
+    margin-bottom: 3rem;
+    &__img{
+        height: 15rem;
+        width: 100%;
+        object-fit: cover;
+        margin-bottom: 1rem;
+    }
+    &__etiquetas{
+        color: darkred;
+    }
+}
+
+.sidebar{
+    margin-left: 1rem;
+    width: 39%;
+
+    &__titulo{
+        text-align: center;
+    }
+}

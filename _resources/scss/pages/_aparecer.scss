@@ -1,0 +1,20 @@
+.aparecer{
+    margin-top: 7rem;
+    &__titulo{
+        text-align: center;
+    }
+}
+.formulario{
+    margin: 3rem;
+    &__btn{
+        text-align: center;
+    }
+}
+
+@media (min-width:768px){
+    .formulario{
+        // &__nombre, &__correo, &__asunto{
+        //     width: 20rem !important;
+        // }
+    }
+}
