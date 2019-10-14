@@ -1,5 +1,5 @@
 .noticias{
-    width: 70%;
+    width: 100%;
     &__div{
         display: flex;
     }
@@ -22,12 +22,21 @@
         color: darkred;
     }
 }
-
 .sidebar{
-    margin-left: 1rem;
-    width: 39%;
+    display: none;
+}
 
-    &__titulo{
-        text-align: center;
+@media(min-width:768px){
+    .noticias{
+        width: 70%;
+    }
+    .sidebar{
+        display: block;
+        margin-left: 1rem;
+        width: 39%;
+    
+        &__titulo{
+            text-align: center;
+        }
     }
 }

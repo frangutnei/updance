@@ -6,7 +6,6 @@
     }
 }
 .tabla{
-    width: 50% !important;
     margin: 0 auto !important;
     margin-bottom: 2rem !important;
     border: 1px solid #dee2e6;
@@ -20,7 +19,7 @@
         display: flex;
     }
     &__dia{
-        width: 15% !important;
+        width: 25% !important;
         border: 1px solid #dee2e6 !important;
         margin: 0;
         font-size: 1.3rem;
@@ -28,22 +27,42 @@
         text-align: center !important;
     }
     &__clases{
-        width: 85%;
+        width: 75%;
     }
     &__clase{
         border: 1px solid #dee2e6 !important;
         display: flex;
+        align-items: center;
         padding: .5rem;     
     }
     &__estilo{
-        width: 85%;
+        width: 70%;
         padding: .5rem;
         display: flex;
         align-items: center;
     }    
     &__btn{
-        width: 15% !important;
+        height: fit-content;
         background-color: darkred !important;
         color: white !important;
+    }
+}
+
+@media(min-width:768px){
+    .tabla{
+        width: 75% !important;
+    
+        &__dia{
+            width: 15% !important;
+        }
+        &__clases{
+            width: 85%;
+        }
+        &__estilo{
+            width: 85%;
+        }    
+        &__btn{
+            width: 15% !important;
+        }
     }
 }
