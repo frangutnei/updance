@@ -11,3 +11,11 @@ $light: 300;
 $regular: 400;
 $bold: 700;
 
+@keyframes aparecerApps{
+    0% {
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}

@@ -54,6 +54,14 @@ body {
  * @since 1.0
  *
  */
+@keyframes aparecerApps {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 /*
  *
  * Este archivo contiene las referencias del código boilerplate de tu proyecto.
@@ -699,6 +707,7 @@ header {
 .descarga__as, .descarga__gp {
   width: 21rem;
   height: 7rem;
+  animation: aparecerApps 3s;
 }
 
 @media (min-width: 768px) {
