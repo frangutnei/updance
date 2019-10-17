@@ -342,6 +342,10 @@ header {
 .caja:hover {
   color: #fff;
   text-decoration: none;
+  -webkit-transform: scale(1.08);
+  -moz-transform: scale(1.08);
+  -o-transform: scale(1.08);
+  transform: scale(1.08);
 }
 .caja__money {
   display: flex;

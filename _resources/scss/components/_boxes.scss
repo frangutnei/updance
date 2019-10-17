@@ -16,7 +16,7 @@
     display: flex;
     align-items: center;
     width: 17rem !important;
-    background-color:  $darkred;
+    background-color: $darkred;
     color: $white;
     margin: 0 auto;
     padding: 1rem 2rem;
@@ -28,12 +28,14 @@
     &:hover{
         color: $white;
         text-decoration: none;
+        @include transformar(scale(1.08));
     }
     &__money{
         display: flex;
         align-items: center;
     }
 }
+
 @media (min-width: 768px){
     .cajas{
         display: flex;
