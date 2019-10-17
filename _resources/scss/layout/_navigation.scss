@@ -1,18 +1,18 @@
 .navigation {
-  background-color: white;
+  background-color: $white;
   align-items: center;
   -webkit-box-shadow: 0px 8px 5px 0px rgba(155,155,163,0.67);
   -moz-box-shadow: 0px 8px 5px 0px rgba(155,155,163,0.67);
   box-shadow: 0px 8px 5px 0px rgba(155,155,163,0.67);
   
   &__logo{
-    color: black !important;
+    color: $black !important;
     font-size: 25px;
     font-weight: 500;
     margin-right: 2rem;
 
     &:hover{
-      color: black !important;
+      color: $black !important;
       font-weight: 700;
       text-decoration: none;
     }
@@ -31,7 +31,7 @@
     font-size: 1.5rem;
   }
   &__hamburguer{
-    color: darkred;
+    color:  $darkred;
   }
   &__list {
     margin-left: 1rem;
@@ -40,20 +40,20 @@
     display: block;
     padding: .7em 1em;
     text-decoration: none;
-    color: black;    
+    color: $black;    
     &:hover{
       font-weight: 500;
     }
   }
   &__link{
-    color: black;
+    color: $black;
     &:hover{
-      color: black;
+      color: $black;
       text-decoration: none;
     }
     &--login{
-      background-color: darkred;
-      color: white !important;
+      background-color:  $darkred;
+      color: $white !important;
       border-radius: 5px;
       padding: .7rem 1.5rem !important;
       margin-left: 1rem;

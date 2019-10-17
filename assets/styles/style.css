@@ -11,6 +11,10 @@
   * @since 1.1
   *
   */
+body * {
+  font-family: "Lato", sans-serif;
+}
+
 body {
   margin-top: 4rem !important;
 }
@@ -67,6 +71,10 @@ body {
  * @since 1.0
  *
  */
+body * {
+  font-family: "Lato", sans-serif;
+}
+
 body {
   margin-top: 4rem !important;
 }
@@ -102,8 +110,9 @@ body {
  *
  */
 .footer {
-  background-color: darkred;
+  background-color: #8B0000;
   padding: 2rem;
+  margin-top: 2rem;
 }
 .footer__logo {
   width: 100%;
@@ -120,7 +129,7 @@ body {
   width: fit-content;
 }
 .footer__link {
-  color: white !important;
+  color: #fff !important;
   padding: 1rem;
 }
 .footer__link:hover {
@@ -132,7 +141,7 @@ body {
   margin-top: 2rem;
 }
 .footer__rs {
-  color: white !important;
+  color: #fff !important;
   margin: 0.3rem;
 }
 
@@ -148,20 +157,21 @@ body {
   }
 }
 .navigation {
-  background-color: white;
+  background-color: #fff;
   align-items: center;
   -webkit-box-shadow: 0px 8px 5px 0px rgba(155, 155, 163, 0.67);
   -moz-box-shadow: 0px 8px 5px 0px rgba(155, 155, 163, 0.67);
   box-shadow: 0px 8px 5px 0px rgba(155, 155, 163, 0.67);
 }
 .navigation__logo {
-  color: darkred !important;
+  color: #000 !important;
   font-size: 25px;
   font-weight: 500;
   margin-right: 2rem;
 }
 .navigation__logo:hover {
-  color: #6d0303 !important;
+  color: #000 !important;
+  font-weight: 700;
   text-decoration: none;
 }
 .navigation__logo--img {
@@ -178,7 +188,7 @@ body {
   font-size: 1.5rem;
 }
 .navigation__hamburguer {
-  color: darkred;
+  color: #8B0000;
 }
 .navigation__list {
   margin-left: 1rem;
@@ -187,18 +197,21 @@ body {
   display: block;
   padding: 0.7em 1em;
   text-decoration: none;
-  color: black;
+  color: #000;
+}
+.navigation__item a:hover {
+  font-weight: 500;
 }
 .navigation__link {
-  color: black;
+  color: #000;
 }
 .navigation__link:hover {
-  color: black;
+  color: #000;
   text-decoration: none;
 }
 .navigation__link--login {
-  background-color: darkred;
-  color: white !important;
+  background-color: #8B0000;
+  color: #fff !important;
   border-radius: 5px;
   padding: 0.7rem 1.5rem !important;
   margin-left: 1rem;
@@ -237,8 +250,9 @@ header {
 }
 
 .footer {
-  background-color: darkred;
+  background-color: #8B0000;
   padding: 2rem;
+  margin-top: 2rem;
 }
 .footer__logo {
   width: 100%;
@@ -255,7 +269,7 @@ header {
   width: fit-content;
 }
 .footer__link {
-  color: white !important;
+  color: #fff !important;
   padding: 1rem;
 }
 .footer__link:hover {
@@ -267,7 +281,7 @@ header {
   margin-top: 2rem;
 }
 .footer__rs {
-  color: white !important;
+  color: #fff !important;
   margin: 0.3rem;
 }
 
@@ -316,8 +330,8 @@ header {
   display: flex;
   align-items: center;
   width: 17rem !important;
-  background-color: darkred;
-  color: white;
+  background-color: #8B0000;
+  color: #fff;
   margin: 0 auto;
   padding: 1rem 2rem;
   left: 4.5rem;
@@ -326,7 +340,7 @@ header {
   text-align: center;
 }
 .caja:hover {
-  color: white;
+  color: #fff;
   text-decoration: none;
 }
 .caja__money {
@@ -385,6 +399,12 @@ header {
     display: none !important;
   }
 }
+.btn__updance {
+  background-color: #8B0000 !important;
+  border-color: #8B0000 !important;
+  color: #fff !important;
+}
+
 .img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9, .img10, .img11, .img12 {
   background-position: center;
   background-size: cover;
@@ -394,28 +414,28 @@ header {
 }
 
 .img1 {
-  background-image: url(../../../assets/images/logo_academias/pp.jpg);
+  background-image: url(../../../assets/images/pp.jpg);
 }
 
 .img2 {
-  background-image: url(../../../assets/images/logo_academias/conny_azua.jpg);
+  background-image: url(../../../assets/images/conny_azua.jpg);
 }
 
 .img3 {
-  background-image: url(../../../assets/images/logo_academias/valero.png);
+  background-image: url(../../../assets/images/valero.png);
 }
 
 .img4 {
-  background-image: url(../../../assets/images/logo_academias/rd.png);
+  background-image: url(../../../assets/images/rd.png);
   background-size: auto;
 }
 
 .img5 {
-  background-image: url(../../../assets/images/logo_academias/wolpack.jpg);
+  background-image: url(../../../assets/images/wolpack.jpg);
 }
 
 .img6 {
-  background-image: url(../../../assets/images/logo_academias/pulso.png);
+  background-image: url(../../../assets/images/pulso.png);
   background-size: auto;
 }
 
@@ -427,7 +447,7 @@ header {
   display: none;
 }
 .carousel__flecha {
-  color: darkred;
+  color: #8B0000;
 }
 
 @media (min-width: 768px) {
@@ -467,10 +487,17 @@ header {
  */
 .funcionamiento {
   text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.funcionamiento__titulo {
+  font-family: "Lato", sans-serif;
 }
 
 .nosotros {
   text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 5rem;
 }
 
 .contacto {
@@ -486,11 +513,6 @@ header {
 .contacto__btn {
   text-align: center;
 }
-.contacto__btn-enviar {
-  background-color: darkred !important;
-  border-color: darkred !important;
-  color: white !important;
-}
 
 .horario__titulo {
   text-align: center;
@@ -499,17 +521,64 @@ header {
 }
 
 .tabla {
-  width: 50% !important;
   margin: 0 auto !important;
   margin-bottom: 2rem !important;
+  border: 1px solid #dee2e6;
 }
 .tabla__profesor {
   font-size: 20px;
+  margin: 0;
+  padding: 1rem;
 }
-.tabla__dia, .tabla__reserva {
-  width: 15%;
+.tabla__horario {
+  display: flex;
+}
+.tabla__dia {
+  width: 25% !important;
+  border: 1px solid #dee2e6 !important;
+  margin: 0;
+  font-size: 1.3rem;
+  padding: 1rem;
+  text-align: center !important;
+}
+.tabla__clases {
+  width: 75%;
+}
+.tabla__clase {
+  border: 1px solid #dee2e6 !important;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+}
+.tabla__estilo {
+  width: 70%;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+.tabla__btn {
+  height: fit-content;
+  background-color: #8B0000 !important;
+  color: #fff !important;
 }
 
+@media (min-width: 768px) {
+  .tabla {
+    width: 75% !important;
+  }
+  .tabla__dia {
+    width: 15% !important;
+  }
+  .tabla__clases {
+    width: 85%;
+  }
+  .tabla__estilo {
+    width: 85%;
+  }
+  .tabla__btn {
+    width: 15% !important;
+  }
+}
 .login {
   text-align: center;
   font-size: 20px;
@@ -536,63 +605,82 @@ header {
 }
 
 .academia {
-  text-align: center;
-  padding-top: 1rem;
-}
-
-.sedes__sede {
-  width: 33%;
-  padding: 0 2rem;
-}
-
-.academia {
-  text-align: center;
   padding-top: 1rem;
 }
 .academia__titulo {
-  margin: 1.5rem 0;
+  margin-top: 1.5rem;
+  text-align: center;
 }
 
 .sedes {
-  display: flex;
-  flex-wrap: wrap;
   padding: 0 2rem;
-  justify-content: space-around;
 }
 .sedes_titulo {
   width: 100%;
-  margin-bottom: 1.5rem;
+  margin-bottom: 3rem;
+  text-align: center;
 }
 .sedes_sede {
-  display: flex;
-  width: 44%;
-  padding-bottom: 2rem;
+  text-align: center;
+  padding-bottom: 5rem;
 }
 
 .sede__img {
-  height: 15rem;
-  width: 15rem;
+  height: 17rem;
+  width: 17rem;
+  margin-bottom: 1rem;
   border-radius: 100%;
 }
+.sede__titulo {
+  text-align: center;
+}
 .sede__info {
-  width: 20rem;
+  height: fit-content;
+  width: 100%;
+}
+.sede__boton {
+  text-align: center;
 }
 .sede__btn {
   display: inline-block;
   margin-top: 1rem;
   padding: 0.8rem 3rem;
-  background-color: #7C0A02;
-  color: white;
+  background-color: #8B0000;
+  color: #fff;
   border-radius: 30px;
 }
 .sede__btn:hover {
-  color: white;
+  color: #fff;
   text-decoration: none;
   -webkit-box-shadow: 0px 0px 17px 0px #7c0a02;
   -moz-box-shadow: 0px 0px 17px 0px #7c0a02;
   box-shadow: 0px 0px 17px 0px #7c0a02;
 }
 
+@media (min-width: 768px) {
+  .sedes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .sedes_sede {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 55rem;
+    text-align: left;
+  }
+
+  .sede__img {
+    height: 15rem;
+    width: 15rem;
+    margin-bottom: 0;
+  }
+  .sede__info {
+    margin: 0 3rem;
+    width: 60%;
+  }
+}
 .descarga {
   margin-top: 7rem;
   height: 20rem;
@@ -612,6 +700,105 @@ header {
 @media (min-width: 768px) {
   .descarga {
     margin-top: 10rem;
+  }
+}
+.contratar__titulo {
+  margin-top: 7rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.contratar__planes {
+  margin-top: 2rem;
+}
+
+.filtrar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.filtrar__region {
+  width: 15rem;
+  margin-right: 1rem;
+}
+.filtrar__academia {
+  width: 15rem;
+  margin-right: 1rem;
+}
+.filtrar__comuna {
+  width: 15rem;
+  margin-right: 1rem;
+}
+.filtrar__btn {
+  padding: 0.5rem 2rem !important;
+  background-color: #8B0000 !important;
+  color: #fff !important;
+}
+
+.plan {
+  margin-bottom: 1rem;
+}
+.plan__btn {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.aparecer {
+  margin-top: 7rem;
+}
+.aparecer__titulo {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.formulario {
+  margin: 3rem;
+}
+.formulario__btn {
+  text-align: center;
+}
+
+.noticias {
+  width: 100%;
+}
+.noticias__div {
+  display: flex;
+}
+.noticias__titulo {
+  text-align: center;
+  margin-top: 7rem;
+  margin-bottom: 3rem;
+}
+
+.noticia {
+  margin-bottom: 3rem;
+}
+.noticia__img {
+  height: 15rem;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+.noticia__etiquetas {
+  color: #8B0000;
+}
+
+.sidebar {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .noticias {
+    width: 70%;
+  }
+
+  .sidebar {
+    display: block;
+    margin-left: 1rem;
+    width: 39%;
+  }
+  .sidebar__titulo {
+    text-align: center;
   }
 }
 

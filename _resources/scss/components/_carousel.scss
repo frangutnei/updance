@@ -6,24 +6,24 @@
     width: 100%;
 }
 .img1{
-    background-image: url(../../../assets/images/logo_academias/pp.jpg);
+    background-image: url(../../../assets/images/pp.jpg);
 }
 .img2{
-    background-image: url(../../../assets/images/logo_academias/conny_azua.jpg);
+    background-image: url(../../../assets/images/conny_azua.jpg);
     // background-size: inherit;
 }
 .img3{
-    background-image: url(../../../assets/images/logo_academias/valero.png);
+    background-image: url(../../../assets/images/valero.png);
 }
 .img4{
-    background-image: url(../../../assets/images/logo_academias/rd.png);
+    background-image: url(../../../assets/images/rd.png);
     background-size: auto;
 }
 .img5{
-    background-image: url(../../../assets/images/logo_academias/wolpack.jpg);
+    background-image: url(../../../assets/images/wolpack.jpg);
 }
 .img6{
-    background-image: url(../../../assets/images/logo_academias/pulso.png);
+    background-image: url(../../../assets/images/pulso.png);
     background-size: auto;
 }
 .carousel{
@@ -35,7 +35,7 @@
         display: none;
     }    
     &__flecha{
-        color: darkred;
+        color:  $darkred;
     }
 }
 

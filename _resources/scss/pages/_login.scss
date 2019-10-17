@@ -19,7 +19,7 @@
         background-color: darkred !important;
         color: white !important;
         &:hover{            
-            background-color: rgb(109, 3, 3) !important;
+            background-color: $hover_btn !important;
         }
     }
 }
